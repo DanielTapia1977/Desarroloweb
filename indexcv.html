@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/estiloscv.css" />
+      <!--implementacion del Framework para el RWD-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>DocumentoCV</title>
+</head>
+<body>
+       
+    <h1>Presentacion de C.V. de un usuario Random</h1>
+     <!--Implementacion de botones "Ancla" para navegar en las diferentes
+        secciones del C.V. en el documento-->
+    <a href="#experiencialaboral"><button>Experiencia Laboral</button></a>
+    <a name="datospersonales"></a>
+    <div class="contenedor">
+        <img src="" alt="perfil del usuario" id="foto">
+        <h2>Nombre: <span id="nombre"></span></h2>
+        <h2>Apellido: <span id="apellido"></span></h2>
+        <h2>D.N.I.:<span id="dni"></span></h2>
+        <h2>Sexo: <span id="sexo"></span></h2>
+        <h2>Fecha de Nacimiento: <span id="fechanac"></span></h2>
+        <h2>Edad: <span id="edad"></span></h2>
+        <div>Contacto
+            <p>Correo: <span id="correo"></span></p>
+            <p>Telefono: <span id="telefono"></span></p> 
+            <p>Movil: <span id="movil"></span></p>
+        </div>
+        <div>Direccion
+            <p>Calle: <span id="calle"></span></p>
+            <p>Numero: <span id="numero"></span></p>
+            <p>Piso: <span id="piso"></span></p>
+            <p>C.P.: <span id="codigopostal"></span></p>
+            <p>Ciudad: <span id="ciudad"></span></p>
+            <p>Provincia: <span id="provincia"></span></p>
+        </div>
+    </div>
+     
+    <div class="boton">
+          <id="boton"><i/d>
+    </div>
+    <div class="jumbotron text-center">
+        <h1>Experiencia Laboral</h1>
+        <p></p> 
+      </div>
+       <!--Presentacion de la experiencia laboral en este caso es estatica
+          se utilizo tabulado por BOOTSTRAP-->
+       
+      <a name="experiencialaboral"></a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Ultimo Empleo</h3>
+            <p>Del 2010 al 2021
+
+                Gerente de RRHH en Garbarino S.A. Selecion de personal. Control de insumos. Auditorias
+                administrativas. Coaching intensivo de grupos de trabajo, formacion de nuevos jefes de grupos</p>
+            
+          </div>
+          <div class="col-sm-4">
+            <h3>Penultimo Empleo</h3>
+            <p>Del 2007 al 2009
+                Manager Administrator del area RRHH en Coto Cicsa. Liquidacion de Haberes. Seleccion de personal.
+                Gerente de sucursal (salon de ventas) manejo presupuestario de mantenimiento, control de mermas etc,   
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h3>Ante-penultimo Empleo</h3>        
+            <p> Del 2005 al 2007
+                Secretaría administrativa en QuickFood s.a. . Tareas relizadas Liquidacuion de sueldos y jornales
+                Facturacion a proveedores.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <a href="#datospersonales"><button>Datos Personales</button></a>
+      <h1>Habilidades</h1>
+      <a name="Habilidades"></a>
+      <p> Manejo Fluido de Ingles (hablado y escrito) graduado con examenes internacionales F.I.S.R.T y TOEFL , curso de R.C.P aprobado por el
+        Gobierno de la C.A.B.A. Postgrado en Adminstracion de Empresas de la UBA. 
+        A nivel deportivo, practica de varias disciplinas deportivas (natacion,ciclismo,running). 
+        </p>
+        
+        <a href="#datospersonales"><button>Datos Personales</button></a>
+        <!--boton de navegacion con links ancla-->
+    <p>
+    </p>
+ <script src="js/funcionescv.js"></script>
+</body>
+</html>
